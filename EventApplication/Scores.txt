@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scores</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src ="Scores.js"></script>
+    <link rel="stylesheet" href="Scores.css">
+</head>
+<body>
+    <table border="1">
+        <tr>
+        <td>1</td>
+        <td>Math1</td>
+        <td><input type="text" id="num1" class="txt"/></td>
+        </tr>
+        <tr>
+        <td>2</td>
+        <td>Math2</td>
+        <td><input type="text" id="num2" class="txt"/></td>
+        </tr>
+        <tr>
+        <td>3</td>
+        <td>Science</td>
+        <td><input type="text" id="science" class="txt"/></td>
+        </tr>
+        <tr>
+        <td>4</td>
+        <td>English</td>
+        <td><input type="text" id="english" class="txt"/></td>
+        </tr>
+        <tr>
+        <td>5</td>
+        <td>Sanskrit</td>
+        <td><input type="text" id="sanskrit" class="txt"/></td>
+        </tr>
+        <tr>
+        <td>6</td>
+        <td>Social<br/>Science</td>
+        <td><input type="text" id="social" class="txt"/></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td><input type="text" id="sum" value="Sum:"/></td>
+        <td><input type="text" id="value" value="0"></td>
+        </tr>
+        </table>
+</body>
+</html>

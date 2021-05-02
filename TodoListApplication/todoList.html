@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <script src ="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src ="todoListScript.js"></script>
+    <link rel="stylesheet" href="todoListCSS.css">
+
+</head>
+<body>
+    <div id="container">
+        <h1>To-Do List</h1>
+        <table>
+            <tr>
+                <td>
+                    <label>Task:</label>
+                </td>
+                <td>
+                    <input id="task" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input id="btn" type="submit" value="Add task">
+                </td>
+            </tr>
+        </table><br>
+        <span>Today's task are:</span>
+        <p id="p1"></p>
+    </div>
+
+</body>
+</html>

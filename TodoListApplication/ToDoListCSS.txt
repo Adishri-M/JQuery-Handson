@@ -1,0 +1,16 @@
+#container {
+    border: 2px solid black;
+    width: 300px;
+    padding: 15px;
+}
+
+span {
+    color: blue;
+}
+
+#p1 {
+    font-size: 15px;
+    width: 500px;
+    color: blue;
+    margin: 10px 0;
+}
